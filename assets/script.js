@@ -8,3 +8,8 @@ $(function () {
         var userInput = timeBlock.find('textarea').val();
         localStorage.setItem(hourId, userInput);
     });
+
+    $('.time-block').each(function(){
+        var blockHour = parseInt($(this).attr('id').split('-')[1], 10);
+
+    
