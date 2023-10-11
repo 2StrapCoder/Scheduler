@@ -1,15 +1,29 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    background-color: #f0f0f0; /* Background color for the entire page */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #dad7d7; /* Thick black border */
+    background-color: #ffffff; /* Dark background color */
+    padding: 10px;
+    margin-bottom: 20px; /* Adds spacing below the header */
   }
   
   textarea {
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
-    border-left: 1px solid black;
+    color: #000000; /* Text color */
+    border-left: 1px solid #000000; /* Left border color */
     padding: 10px;
+    width: 100%; /* Takes up the entire width of the container */
   }
   
   .description {
@@ -18,43 +32,50 @@ body {
   
   .time-block {
     border-radius: 15px;
+    background-color: #ddd; /* Light gray background color */
+    padding: 10px;
+    margin-bottom: 10px; /* Adds spacing between time blocks */
   }
   
   .row {
-    border-top: 1px solid white;
+    border-top: 1px solid #fefdfd; /* Top border color for each row */
   }
   
   .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
+    background-color: #f7f7f2; /* Yellow background color */
+    color: #040404; /* Text color */
+    border-top: 1px dashed #faf7f7; /* Dashed top border */
+    padding: 5px;
   }
   
   .past {
-    background-color: #d3d3d3;
-    color: white;
+    background-color: grey; /* Red background color */
+    color: white; /* Text color */
   }
   
   .present {
-    background-color: #ff6961;
-    color: white;
+    background-color: red; /* Light orange background color */
+    color: white; /* Text color */
   }
   
   .future {
-    background-color: #77dd77;
-    color: white;
+    background-color: #77dd77; /* Light green background color */
+    color: white; /* Text color */
   }
   
   .saveBtn {
-    border-left: 1px solid black;
+    border-left: 1px solid #faf8f8; /* Left border color */
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06aed5;
-    color: white;
+    background-color: #000000; /* Dark background color */
+    color: white; /* Text color */
+    padding: 5px 10px;
+    cursor: pointer; /* Change cursor on hover */
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
+    color: #ffaa60; /* Light orange color on hover */
   }
   
