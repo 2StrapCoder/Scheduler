@@ -10,3 +10,4 @@ When the planner is opened, the current day is prominently displayed. As the use
 ![Alt text](<Screenshot 2023-10-10 201820.png>)
 
 ## Link
+ https://2strapcoder.github.io/Scheduler/
